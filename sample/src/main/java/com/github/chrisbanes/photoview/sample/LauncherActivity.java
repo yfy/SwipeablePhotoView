@@ -37,7 +37,9 @@ public class LauncherActivity extends AppCompatActivity {
             "Picasso Sample",
             "Coil Sample",
             "Activity Transition Sample",
-            "Immersive Sample"
+            "Immersive Sample",
+            "Simple Swipe To Close Activity",
+            "Swipe To Close ViewPager Sample"
     };
 
     @Override
@@ -81,6 +83,13 @@ public class LauncherActivity extends AppCompatActivity {
                         break;
                     case 6:
                         clazz = ImmersiveActivity.class;
+                        break;
+                    case 7:
+                        clazz = SimpleSwipeableSampleActivity.class;
+                        break;
+                    case 8:
+                        clazz = ViewPagerSwipeableActivity.class;
+                        break;
                 }
 
                 Context context = holder.itemView.getContext();

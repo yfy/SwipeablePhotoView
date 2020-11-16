@@ -1,6 +1,8 @@
 <resources>
 
     <string name="app_name">PhotoView Sample</string>
+    <string name="menu_swipe_enable">Enable Swipe</string>
+    <string name="menu_swipe_disable">Disable Swipe</string>
     <string name="menu_zoom_enable">Enable Zoom</string>
     <string name="menu_zoom_disable">Disable Zoom</string>
     <string name="menu_scale_fit_center">Change to FIT_CENTER</string>

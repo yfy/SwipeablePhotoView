@@ -35,6 +35,8 @@
         <activity android:name=".ActivityTransitionToActivity" />
 
         <activity android:name=".ImmersiveActivity" />
+        <activity android:name=".SimpleSwipeableSampleActivity" />
+        <activity android:name=".ViewPagerSwipeableActivity"/>
     </application>
 
 </manifest>

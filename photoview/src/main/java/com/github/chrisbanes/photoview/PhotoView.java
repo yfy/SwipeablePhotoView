@@ -150,6 +150,14 @@ public class PhotoView extends AppCompatImageView {
         attacher.setZoomable(zoomable);
     }
 
+    public boolean isSwipeable() {
+        return attacher.isSwipeable();
+    }
+
+    public void setSwipeable(boolean swipeable) {
+        attacher.setSwipeable(swipeable);
+    }
+
     public RectF getDisplayRect() {
         return attacher.getDisplayRect();
     }

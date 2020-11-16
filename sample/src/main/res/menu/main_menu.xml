@@ -4,6 +4,9 @@
       tools:ignore="UnusedAttribute">
 
     <item
+        android:id="@+id/menu_swipeable_toggle"
+        android:title="@string/menu_swipe_disable"/>
+    <item
         android:id="@+id/menu_zoom_toggle"
         android:title="@string/menu_zoom_disable"/>
     <item
